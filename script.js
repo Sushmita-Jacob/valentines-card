@@ -4,5 +4,11 @@ const message = document.getElementById('message')
 
 function switchImage() {
     console.log("testing")
-    envelope.src="open.jpg";
+    if (envelope.src.endsWith("open.jpg")) {
+        envelope.src="closed.jpg";
+    }
+    else if (envelope.src.endsWith("closed.jpg")) {
+        envelope.src="open.jpg";
+    }
+    confetti();
 }
