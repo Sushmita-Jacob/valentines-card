@@ -4,18 +4,32 @@
     
 </head>
 <body>
-    <h1>Congratulations!</h1>
-    <h2>Click to open the card!</h2>
+    <h2 id="open-close">Click to seal, send, and get a new envelope!</h2>
     <div id="card">
-        <img id="envelope-img" src="closed.jpg" onclick="switchImage()"/>
+        <img id="envelope-img" src="open.png" onclick="switchImage()"/>
         <div id="message">
             <p></p>
         </div>
         <h1><span id="counter"></span></h1>
     </div>
     <div id="shop">
-        <h5>Automatic Envelope Sealer</h5>
+        <span><b>Automatic Envelope Stuffer - 30</b></span>
+        <span id="shop1bought"></span>
         <button id="shop1id">Buy</button>
+        <br>
+        <span>Have a machine automatically stuff and seal your envelopes! Halves the amount of clicks you need.</span>
+        <br><br>
+        <span><b>Mailman Intern - 50</b></span>
+        <span id="shop2bought"></span>
+        <button id="shop2id">Buy</button>
+        <br>
+        <span>Hire a brand new mailman intern to send your envelopes to the post office! Increases your currency by 1 each second.</span>
+        <br><br>
+        <span><b>Carrier Pigeon - 100</b></span>
+        <span id="shop3bought"></span>
+        <button id="shop3id">Buy</button>
+        <br>
+        <span>Hire a very experienced delivery pigeon! Increases your currency by 3 each second.</span>
     </div>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
