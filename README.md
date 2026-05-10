@@ -9,6 +9,7 @@ There are three shop items so far:
 - Mailman Intern (50): Hire a brand new mailman intern to send your envelopes to the post office! Increases your currency by 1 each second.
 - Carrier Pigeon (100): Hire a very experienced delivery pigeon! Increases your currency by 3 each second.
 
+
 I am planning the following minigames/options:
 - After supply runs out (the end of the tutorial part), you need to buy your own envelopes and stamps from the store
 - Chance of wax seal stamps being on stock at the store. Using these increases the currency received per click
